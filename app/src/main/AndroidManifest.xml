@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.m520it.jdmall03">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".JDMallApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.RegistActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".mvp.view.ResetActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.ProductListActivity"
+            android:launchMode="singleTop"/>
+        <activity
+            android:name=".activity.ProductDetailsActivity"
+            android:launchMode="singleTop"/>
+        <activity android:name=".activity.AddressListActivity">
+        </activity>
+        <activity android:name=".activity.AddressAddActivity">
+        </activity>
+        <activity android:name=".activity.SettleActivity">
+        </activity>
+        <activity android:name=".activity.OrderListActivity">
+        </activity>
+        <activity android:name=".activity.OrderDetailsActivity">
+        </activity>
+        <activity android:name=".activity.AlipayActivity">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="choose_address_tv" type="id"/>
+    <item name="piv" type="id"/>
+    <item name="psize" type="id"/>
+</resources>

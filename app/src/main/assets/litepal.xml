@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+
+    <dbname value="jdmall" />
+    <version value="1" />
+
+    <list>
+        <mapping class="com.m520it.jdmall03.bean.Account" />
+    </list>
+
+    <!--
+        <storage value="external" />
+    -->
+
+</litepal>
